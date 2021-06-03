@@ -1,0 +1,141 @@
+.container{
+    max-width: 1080px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #000080;
+}
+
+.header{
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin: 10px;
+    background-color:lightblue;
+}
+
+/* Bagian Main */
+    .left{
+        width: 200px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        background-color: #ffb3d1;
+    }
+
+    .left2{
+        width: 200px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        background-color:lightblue;
+    }
+
+    .middle{
+        width: 500px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        background-color:#ffff99;
+    }
+        .middle img{
+            max-width: 100%;
+            height: auto;
+        }
+
+    .right{
+        width: 210px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        margin: 10px;
+        float: right;
+    }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.list{
+    max-width: 1080px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #ffccff;
+}
+
+.footer{
+    clear: both;
+    border: 2px solid #2d2d2d;
+    color: #fff;
+    background-color: #2d2d2d;
+    padding: 10px;
+    margin: 10px;
+}
+    .footer a{
+        color: #fff;
+    }
+        .footer a:hover{
+            color: #eaeaea;
+        }
+
+@media screen and (max-width: 1080px) {
+    
+    .container {
+        width: 100%;
+        background-color: lightblue;
+    }
+    .left {
+        width: 25%;
+        background-color: #ffb3d1;
+    }
+    .left2 {
+        width: 25%;
+        background-color: lightblue;
+    }
+    .middle {
+        width: 68%;
+        float: right;
+        background-color: lightyellow;
+    }
+    
+    .right {
+        clear: both;
+        padding: 1% 4%;
+        width: auto;
+        float: none;
+    }
+}
+@media screen and (max-width: 780px) {
+    
+    .header, 
+    .footer{
+        text-align: center;
+    }
+    .left {
+        width: auto;
+        float: none;
+    }
+    .left2 {
+        width: auto;
+        float: none;
+    }
+    .middle {
+        width: auto;
+        float: none;
+    }
+    
+    .right {
+        width: auto;
+        float: none;
+    }
+
+}
